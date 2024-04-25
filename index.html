@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gdańsk Street Cup</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('tlo.jpg'); /* Zmień 'sciezka/do/tla.jpg' na ścieżkę do własnego obrazu */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px; /* Dodane odstępy między przyciskami */
+  }
+</style>
+</head>
+<body>
+
+<button onclick="przekierujDoPierwszejStrony()">Regulamin Turnieju</button>
+<button onclick="przekierujDoDrugiejStrony()">Formularz zgloszeniowy</button>
+<button onclick="skibiditoilet()">Zgoda Dla rodziców</button>
+
+<script>
+function przekierujDoPierwszejStrony() {
+  // Tutaj podaj adres URL, do którego chcesz przekierować użytkownika
+  window.open("https://docs.google.com/document/d/1320TopsVE6AwK-9HDjSyCUHTmapr0_hDqn7RVZAHznE/edit?usp=sharing");
+}
+
+function przekierujDoDrugiejStrony() {
+  // Tutaj podaj adres URL, do którego chcesz przekierować użytkownika
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSc_WN9_EGPTp7spsNidHdh3msuDfng3bXBI7xstSQpW2aweAA/viewform?usp=sf_link");
+}
+
+function skibiditoilet() {
+  // Tutaj podaj adres URL, do którego chcesz przekierować użytkownika
+  window.open("https://docs.google.com/document/d/1d8RdF2KSviOXKRS2NUKSDi3GnoK9-oknxreEVh60gn0/edit?usp=sharing");
+  }
+</script>
+
+</body>
+</html>
